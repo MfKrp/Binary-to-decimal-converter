@@ -1,0 +1,94 @@
+* {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+body {
+    background-color: rgb(171, 4, 4);
+    color: #ffffff;
+}
+
+/*Estilos para el contenedor principal*/
+#contenedor {
+    border: 2px #ffffff solid;
+    margin: 1%;
+    padding: 1%;
+}
+
+/*Estilos para el titulo de la pagina*/
+.titulo {
+    text-align: center;
+    display: block;
+    border: 2px #ffffff solid;
+}
+
+/*Estilos para el autor de la pagina*/
+.autor {
+    text-align: center;
+    border: 2px #ffffff solid;
+    display: block;
+    margin: 1% 0;
+}
+
+/*Estilos para el conversor y sus elementos*/
+.conversor {
+    display: block;
+    border: 2px #ffffff solid;
+    padding: 1%;
+}
+
+.instrucciones {
+    text-align: center;
+    text-decoration: white underline 1px;
+}
+/*
+.contenedor-ingreso {
+    width: 5%;
+    margin: auto;
+}
+*/
+#campo-ingreso {
+    color: black;
+    display: block;
+    padding: 20px;
+    margin: auto;
+    font-size: 20px;
+    outline: none;
+    box-shadow: 5px 5px 6px black;
+}
+
+button {
+    display: block;
+    margin: 2% auto;
+    background-color: red;
+    border: solid 2px #4F1111;
+    border-top: 0;
+    border-left: 0;
+    border-right: 2%;
+    border-bottom: 4%;
+    border-radius: 10px;
+    font-size: 50px;
+    color: black;
+    box-shadow: 3px 4px 10px black;
+}
+
+button:hover {
+    background-color: rgba(255, 0, 0, 0.7);
+}
+
+button:active {
+    background-color: rgba(255, 0, 0, 0.3);
+}
+
+p {
+    font-size: 30px;
+    text-align: center;
+}
+
+#resultado {
+    background-color: darkgrey;
+    color: black;
+    border: solid 1px white;
+    border-radius: 40px;
+    margin: 0 30%;
+    box-shadow: 3px 6px 10px black;
+}
